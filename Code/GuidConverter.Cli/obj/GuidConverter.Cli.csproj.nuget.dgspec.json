@@ -1,30 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\GuidConverter\\GuidConverter.Cli\\GuidConverter.Cli.csproj": {}
+    "C:\\Projects\\Guids\\Code\\GuidConverter.Cli\\GuidConverter.Cli.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\GuidConverter\\GuidConverter.Cli\\GuidConverter.Cli.csproj": {
+    "C:\\Projects\\Guids\\Code\\GuidConverter.Cli\\GuidConverter.Cli.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\GuidConverter\\GuidConverter.Cli\\GuidConverter.Cli.csproj",
+        "projectUniqueName": "C:\\Projects\\Guids\\Code\\GuidConverter.Cli\\GuidConverter.Cli.csproj",
         "projectName": "GuidConverter.Cli",
-        "projectPath": "D:\\Dev\\GuidConverter\\GuidConverter.Cli\\GuidConverter.Cli.csproj",
-        "packagesPath": "C:\\Users\\Brady.Kelly\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\GuidConverter\\GuidConverter.Cli\\obj\\",
+        "projectPath": "C:\\Projects\\Guids\\Code\\GuidConverter.Cli\\GuidConverter.Cli.csproj",
+        "packagesPath": "C:\\Users\\brady\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Guids\\Code\\GuidConverter.Cli\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Brady.Kelly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brady\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Projects\\QuickDrive\\Code\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview3-014645\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
         }
       }
     }
