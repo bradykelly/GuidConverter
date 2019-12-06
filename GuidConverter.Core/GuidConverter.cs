@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace GuidConverter.Cli
+namespace GuidConverter.Core
 {
     public class GuidConverter
     {
@@ -13,6 +11,11 @@ namespace GuidConverter.Cli
 
         public static Guid FromRaw(string source)
         {
+            // BKTODO Check string is hex digits only.
+            if (source.Length != 32)
+            {
+                throw new ArgumentException("String length must be 32. This length: " + source.Length);
+            }
             var bytes = ParseHex(source);
             return new Guid(bytes);
         }
@@ -29,12 +32,8 @@ namespace GuidConverter.Cli
 
         private static byte[] ParseHex(string hex)
         {
-            int offset = hex.StartsWith("0x") ? 2 : 0;
-            if ((hex.Length % 2) != 0)
-            {
-                throw new ArgumentException("Invalid length: " + hex.Length);
-            }
-            byte[] ret = new byte[(hex.Length - offset) / 2];
+            int offset = 0;
+            byte[] ret = new byte[hex.Length / 2];
 
             for (int i = 0; i < ret.Length; i++)
             {

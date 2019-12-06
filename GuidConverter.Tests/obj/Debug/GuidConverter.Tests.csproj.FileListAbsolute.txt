@@ -1,0 +1,15 @@
+D:\Dev\GuidConverter\GuidConverter.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Dev\GuidConverter\GuidConverter.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Dev\GuidConverter\GuidConverter.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Dev\GuidConverter\GuidConverter.Tests\bin\Debug\GuidConverter.Tests.dll
+D:\Dev\GuidConverter\GuidConverter.Tests\bin\Debug\GuidConverter.Tests.pdb
+D:\Dev\GuidConverter\GuidConverter.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Dev\GuidConverter\GuidConverter.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Dev\GuidConverter\GuidConverter.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Dev\GuidConverter\GuidConverter.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Dev\GuidConverter\GuidConverter.Tests\obj\Debug\GuidConverter.Tests.csprojAssemblyReference.cache
+D:\Dev\GuidConverter\GuidConverter.Tests\obj\Debug\GuidConverter.Tests.csproj.CopyComplete
+D:\Dev\GuidConverter\GuidConverter.Tests\obj\Debug\GuidConverter.Tests.dll
+D:\Dev\GuidConverter\GuidConverter.Tests\obj\Debug\GuidConverter.Tests.pdb
+D:\Dev\GuidConverter\GuidConverter.Tests\bin\Debug\GuidConverter.Core.dll
+D:\Dev\GuidConverter\GuidConverter.Tests\bin\Debug\GuidConverter.Core.pdb

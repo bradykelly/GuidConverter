@@ -1,0 +1,11 @@
+D:\Dev\GuidConverter\GuidConverter.Cli\bin\Debug\netcoreapp3.1\GuidConverter.Cli.exe
+D:\Dev\GuidConverter\GuidConverter.Cli\bin\Debug\netcoreapp3.1\GuidConverter.Cli.deps.json
+D:\Dev\GuidConverter\GuidConverter.Cli\bin\Debug\netcoreapp3.1\GuidConverter.Cli.runtimeconfig.json
+D:\Dev\GuidConverter\GuidConverter.Cli\bin\Debug\netcoreapp3.1\GuidConverter.Cli.runtimeconfig.dev.json
+D:\Dev\GuidConverter\GuidConverter.Cli\bin\Debug\netcoreapp3.1\GuidConverter.Cli.dll
+D:\Dev\GuidConverter\GuidConverter.Cli\bin\Debug\netcoreapp3.1\GuidConverter.Cli.pdb
+D:\Dev\GuidConverter\GuidConverter.Cli\obj\Debug\netcoreapp3.1\GuidConverter.Cli.csprojAssemblyReference.cache
+D:\Dev\GuidConverter\GuidConverter.Cli\obj\Debug\netcoreapp3.1\GuidConverter.Cli.AssemblyInfoInputs.cache
+D:\Dev\GuidConverter\GuidConverter.Cli\obj\Debug\netcoreapp3.1\GuidConverter.Cli.AssemblyInfo.cs
+D:\Dev\GuidConverter\GuidConverter.Cli\obj\Debug\netcoreapp3.1\GuidConverter.Cli.dll
+D:\Dev\GuidConverter\GuidConverter.Cli\obj\Debug\netcoreapp3.1\GuidConverter.Cli.pdb
