@@ -8,3 +8,13 @@ D:\Dev\GuidConverter\GuidConverter.Cmdlet\obj\Debug\GuidConverter.Cmdlet.csproj.
 D:\Dev\GuidConverter\GuidConverter.Cmdlet\obj\Debug\GuidConverter.Cmdlet.dll
 D:\Dev\GuidConverter\GuidConverter.Cmdlet\obj\Debug\GuidConverter.Cmdlet.pdb
 D:\Dev\GuidConverter\GuidConverter.Cmdlet\bin\Debug\GuidConverter.psd1
+D:\Dev\GuidConverter\Code\GuidConverter.Cmdlet\bin\Debug\GuidConverter.psd1
+D:\Dev\GuidConverter\Code\GuidConverter.Cmdlet\bin\Debug\GuidConverter.Cmdlet.dll
+D:\Dev\GuidConverter\Code\GuidConverter.Cmdlet\bin\Debug\GuidConverter.Cmdlet.pdb
+D:\Dev\GuidConverter\Code\GuidConverter.Cmdlet\bin\Debug\GuidConverter.Core.dll
+D:\Dev\GuidConverter\Code\GuidConverter.Cmdlet\bin\Debug\System.Management.Automation.dll
+D:\Dev\GuidConverter\Code\GuidConverter.Cmdlet\bin\Debug\GuidConverter.Core.pdb
+D:\Dev\GuidConverter\Code\GuidConverter.Cmdlet\obj\Debug\GuidConverter.Cmdlet.csprojAssemblyReference.cache
+D:\Dev\GuidConverter\Code\GuidConverter.Cmdlet\obj\Debug\GuidConverter.Cmdlet.csproj.CopyComplete
+D:\Dev\GuidConverter\Code\GuidConverter.Cmdlet\obj\Debug\GuidConverter.Cmdlet.dll
+D:\Dev\GuidConverter\Code\GuidConverter.Cmdlet\obj\Debug\GuidConverter.Cmdlet.pdb

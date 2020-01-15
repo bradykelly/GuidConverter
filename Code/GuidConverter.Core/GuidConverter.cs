@@ -4,9 +4,14 @@ namespace GuidConverter.Core
 {
     public class GuidConverter
     {
-        public static string ToRaw(Guid target)
+        public static string ToRaw(Guid source)
         {
-            return StringifyByteArray(target.ToByteArray());
+            return StringifyByteArray(source.ToByteArray());
+        }
+
+        public static Guid NewGuid()
+        {
+            return Guid.NewGuid();
         }
 
         public static Guid FromRaw(string source)
@@ -14,7 +19,7 @@ namespace GuidConverter.Core
             // BKTODO Check string is hex digits only.
             if (source.Length != 32)
             {
-                throw new ArgumentException("String length must be 32. This length: " + source.Length);
+                throw new ArgumentException("Input must be a 32 char hex string. Input was this: " + source);
             }
             var bytes = ParseHex(source);
             return new Guid(bytes);

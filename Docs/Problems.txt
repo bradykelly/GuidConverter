@@ -1,0 +1,2 @@
+- Show help on exception vs. just exception output from PowerShell in red.
+- Different output for string vs. guid.

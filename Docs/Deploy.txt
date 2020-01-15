@@ -1,0 +1,5 @@
+C:\Windows\System32\WindowsPowerShell\v1.0\profile.ps1:
+	Import-Module "C:\Program Files\WindowsPowerShell\Modules\GuidConverter\GuidConverter"
+	
+C:\Program Files\WindowsPowerShell\Modules\GuidConverter
+	Assemblies and .psd1 file.

@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.161
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Cli", "GuidConverter.Cli\GuidConverter.Cli.csproj", "{FC5CCF32-29BE-47D6-BA60-4804A80970AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuidConverter.Cli", "GuidConverter.Cli\GuidConverter.Cli.csproj", "{FC5CCF32-29BE-47D6-BA60-4804A80970AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Tests", "GuidConverter.Tests\GuidConverter.Tests.csproj", "{C675F1BB-A051-436B-B240-A8A7E45EF223}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Core", "GuidConverter.Core\GuidConverter.Core.csproj", "{BD3C78B1-7423-457E-9D58-12CED843B387}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Cmdlet", "GuidConverter.Cmdlet\GuidConverter.Cmdlet.csproj", "{34BF7A10-0EF1-42AD-A707-9FC2E811FE29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Nuget", "GuidConverter.Nuget\GuidConverter.Nuget.csproj", "{DC35631A-837B-43C5-8997-2CAB4ED5866E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Commands", "GuidConverter.Commands\GuidConverter.Commands.csproj", "{BC78C91B-D646-4C4E-B3B9-5A3BACC865BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{34BF7A10-0EF1-42AD-A707-9FC2E811FE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34BF7A10-0EF1-42AD-A707-9FC2E811FE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34BF7A10-0EF1-42AD-A707-9FC2E811FE29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC35631A-837B-43C5-8997-2CAB4ED5866E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC35631A-837B-43C5-8997-2CAB4ED5866E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC35631A-837B-43C5-8997-2CAB4ED5866E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC35631A-837B-43C5-8997-2CAB4ED5866E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC78C91B-D646-4C4E-B3B9-5A3BACC865BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC78C91B-D646-4C4E-B3B9-5A3BACC865BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC78C91B-D646-4C4E-B3B9-5A3BACC865BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC78C91B-D646-4C4E-B3B9-5A3BACC865BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

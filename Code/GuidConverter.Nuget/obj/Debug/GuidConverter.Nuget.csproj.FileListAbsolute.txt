@@ -1,0 +1,5 @@
+D:\Dev\GuidConverter\Code\GuidConverter.Nuget\bin\Debug\GuidConverter.Nuget.dll
+D:\Dev\GuidConverter\Code\GuidConverter.Nuget\bin\Debug\GuidConverter.Nuget.pdb
+D:\Dev\GuidConverter\Code\GuidConverter.Nuget\obj\Debug\GuidConverter.Nuget.csprojAssemblyReference.cache
+D:\Dev\GuidConverter\Code\GuidConverter.Nuget\obj\Debug\GuidConverter.Nuget.dll
+D:\Dev\GuidConverter\Code\GuidConverter.Nuget\obj\Debug\GuidConverter.Nuget.pdb
