@@ -1,8 +1,0 @@
-D:\Dev\GuidConverter\GuidConverter.Core\bin\Debug\GuidConverter.Core.dll
-D:\Dev\GuidConverter\GuidConverter.Core\bin\Debug\GuidConverter.Core.pdb
-D:\Dev\GuidConverter\GuidConverter.Core\obj\Debug\GuidConverter.Core.dll
-D:\Dev\GuidConverter\GuidConverter.Core\obj\Debug\GuidConverter.Core.pdb
-D:\Dev\GuidConverter\Code\GuidConverter.Core\bin\Debug\GuidConverter.Core.dll
-D:\Dev\GuidConverter\Code\GuidConverter.Core\bin\Debug\GuidConverter.Core.pdb
-D:\Dev\GuidConverter\Code\GuidConverter.Core\obj\Debug\GuidConverter.Core.dll
-D:\Dev\GuidConverter\Code\GuidConverter.Core\obj\Debug\GuidConverter.Core.pdb
