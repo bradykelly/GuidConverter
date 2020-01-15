@@ -11,7 +11,7 @@ namespace GuidConverter.Commands
     /// A PowerShell cmdlet that derives a Guid from the hex string representation of an Oracle RAW type column.
     /// </summary>
     [Cmdlet(VerbsData.Convert, "RawToGuid")]
-    public class ConvertRawToGuid : System.Management.Automation.Cmdlet
+    public class ConvertRawToGuidCommand : System.Management.Automation.Cmdlet
     {
         [Parameter(Mandatory = true, Position = 1)]
         public string Input { get; set; }

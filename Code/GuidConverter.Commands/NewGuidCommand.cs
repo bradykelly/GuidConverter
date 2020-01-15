@@ -8,7 +8,7 @@ using System.Windows;
 
 namespace GuidConverter.Commands
 {
-    [Cmdlet(VerbsCommon.New, "Guid")]
+    [Cmdlet(VerbsCommon.Get, "Guid")]
     public class NewGuidCommand : System.Management.Automation.Cmdlet
     {
         protected override void ProcessRecord()

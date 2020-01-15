@@ -3,3 +3,10 @@ C:\Windows\System32\WindowsPowerShell\v1.0\profile.ps1:
 	
 C:\Program Files\WindowsPowerShell\Modules\GuidConverter
 	Assemblies and .psd1 file.
+	
+API Key: oy2b3dim7feau2jwc73azcahxdsbvnkezgmctgckfvttua
+
+
+1. Copy files.
+2. Import-Module "C:\Program Files\WindowsPowerShell\Modules\GuidConverter.Commands"
+3. Publish-Module -Name GuidConverter.Commands -NuGetApiKey oy2b3dim7feau2jwc73azcahxdsbvnkezgmctgckfvttua

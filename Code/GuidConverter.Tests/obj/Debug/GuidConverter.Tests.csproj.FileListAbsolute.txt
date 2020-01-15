@@ -16,11 +16,15 @@ D:\Dev\GuidConverter\GuidConverter.Tests\bin\Debug\GuidConverter.Core.pdb
 D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\GuidConverter.Commands.psd1
 D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\GuidConverter.Tests.dll
 D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\GuidConverter.Tests.pdb
+D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\GuidConverter.Commands.dll
 D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\GuidConverter.Core.dll
 D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\System.Management.Automation.dll
+D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\GuidConverter.Commands.pdb
 D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\GuidConverter.Core.pdb
 D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
@@ -28,7 +32,3 @@ D:\Dev\GuidConverter\Code\GuidConverter.Tests\obj\Debug\GuidConverter.Tests.cspr
 D:\Dev\GuidConverter\Code\GuidConverter.Tests\obj\Debug\GuidConverter.Tests.csproj.CopyComplete
 D:\Dev\GuidConverter\Code\GuidConverter.Tests\obj\Debug\GuidConverter.Tests.dll
 D:\Dev\GuidConverter\Code\GuidConverter.Tests\obj\Debug\GuidConverter.Tests.pdb
-D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\GuidConverter.Commands.dll
-D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\System.Management.Automation.dll
-D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\GuidConverter.Commands.pdb
-D:\Dev\GuidConverter\Code\GuidConverter.Tests\bin\Debug\GuidConverter.Commands.psd1
