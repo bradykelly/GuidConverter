@@ -13,16 +13,16 @@ namespace GuidConverter.Commands
     [Cmdlet(VerbsData.Convert, "GuidToRaw")]
     public class ConverterGuidToRawCommand : System.Management.Automation.Cmdlet
     {
-        [Parameter(Mandatory = true, Position = 1)]
-        public string Input { get; set; }
+        [Parameter(Mandatory = true, Position = 1, ValueFromPipeline = true)]
+        public Guid Input { get; set; }
 
         protected override void ProcessRecord()
         {
-            if (!Guid.TryParse(Input, out var inputGuid))
-            {
-                throw new ArgumentException("Input must be a valid Guid string");
-            }
-            var raw = GuidConverter.Core.GuidConverter.ToRaw(inputGuid);
+            //if (!Guid.TryParse(Input, out var inputGuid))
+            //{
+            //    throw new ArgumentException("Input must be a valid Guid string");
+            //}
+            var raw = GuidConverter.Core.GuidConverter.ToRaw(Input);
             WriteObject(raw);
         }
     }

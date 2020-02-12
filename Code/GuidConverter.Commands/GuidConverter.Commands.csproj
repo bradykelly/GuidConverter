@@ -65,6 +65,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy $(TargetDir)* "C:\Program Files\WindowsPowerShell\Modules\1.0.0\GuidConverter.Commands " /sy</PostBuildEvent>
+    <PostBuildEvent>xcopy $(TargetDir)* "C:\Program Files\WindowsPowerShell\Modules\GuidConverter.Commands " /sy</PostBuildEvent>
   </PropertyGroup>
 </Project>

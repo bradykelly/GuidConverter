@@ -9,3 +9,5 @@ D:\Dev\GuidConverter\Code\GuidConverter.Cli\obj\Debug\netcoreapp3.1\GuidConverte
 D:\Dev\GuidConverter\Code\GuidConverter.Cli\obj\Debug\netcoreapp3.1\GuidConverter.Cli.AssemblyInfo.cs
 D:\Dev\GuidConverter\Code\GuidConverter.Cli\obj\Debug\netcoreapp3.1\GuidConverter.Cli.dll
 D:\Dev\GuidConverter\Code\GuidConverter.Cli\obj\Debug\netcoreapp3.1\GuidConverter.Cli.pdb
+D:\Dev\GuidConverter\Code\GuidConverter.Cli\obj\Debug\netcoreapp3.1\GuidConverter.Cli.csproj.CoreCompileInputs.cache
+D:\Dev\GuidConverter\Code\GuidConverter.Cli\obj\Debug\netcoreapp3.1\GuidConverter.Cli.genruntimeconfig.cache
