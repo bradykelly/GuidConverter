@@ -9,7 +9,7 @@ using System.Windows;
 namespace GuidConverter.Commands
 {
     [Cmdlet(VerbsCommon.Get, "Guid")]
-    public class NewGuidCommand : System.Management.Automation.Cmdlet
+    public class GetGuidCommand : System.Management.Automation.Cmdlet
     {
         protected override void ProcessRecord()
         {

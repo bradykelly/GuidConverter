@@ -13,7 +13,7 @@ namespace GuidConverter.Commands
     [Cmdlet(VerbsData.Convert, "RawToGuid")]
     public class ConvertRawToGuidCommand : System.Management.Automation.Cmdlet
     {
-        [Parameter(Mandatory = true, Position = 1)]
+        [Parameter(Mandatory = true, Position = 1, ValueFromPipeline = true)]
         public string Input { get; set; }
 
         protected override void ProcessRecord()
@@ -21,7 +21,6 @@ namespace GuidConverter.Commands
             if (string.IsNullOrEmpty(Input) || Input.Length != 32)
             {
                 throw new ArgumentException("Input must be a 32 character hex string");
-
             }
             var guid = GuidConverter.Core.GuidConverter.FromRaw(Input);
             WriteObject(guid);

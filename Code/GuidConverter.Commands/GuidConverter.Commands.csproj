@@ -49,7 +49,7 @@
   <ItemGroup>
     <Compile Include="ConvertRawToGuidCommand.cs" />
     <Compile Include="ConverterGuidToRawCommand.cs" />
-    <Compile Include="NewGuidCommand.cs" />
+    <Compile Include="GetGuidCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
