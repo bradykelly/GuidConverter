@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace GuidConverter.Core
 {
@@ -9,23 +10,23 @@ namespace GuidConverter.Core
             return StringifyByteArray(source.ToByteArray());
         }
 
-        public static Guid NewGuid()
-        {
-            return Guid.NewGuid();
-        }
-
         public static Guid FromRaw(string source)
         {
-            // BKTODO Check string is hex digits only.
+            var regEx = new Regex("[a-fA-F0-9]{2}");
+            if (!regEx.IsMatch(source))
+            {
+                throw new ArgumentException("Input string must be hex digits only.");
+            }
             if (source.Length != 32)
             {
                 throw new ArgumentException("Input must be a 32 char hex string. Input was this: " + source);
             }
+
             var bytes = ParseHex(source);
             return new Guid(bytes);
         }
 
-        public static string StringifyByteArray(byte[] array)
+        private static string StringifyByteArray(byte[] array)
         {
             string str = null;
             if (array != null)

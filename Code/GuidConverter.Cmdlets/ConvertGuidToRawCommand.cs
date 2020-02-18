@@ -1,27 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Management.Automation;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace GuidConverter.Commands
+namespace GuidConverter.Cmdlets
 {
     /// <summary>
     /// A PowerShell cmdlet that derives a string representation, for an Oracle RAW type column, of a Guid.
     /// </summary>
     [Cmdlet(VerbsData.Convert, "GuidToRaw")]
-    public class ConverterGuidToRawCommand : System.Management.Automation.Cmdlet
+    public class ConvertGuidToRawCommand : System.Management.Automation.Cmdlet
     {
         [Parameter(Mandatory = true, Position = 1, ValueFromPipeline = true)]
         public Guid Input { get; set; }
 
         protected override void ProcessRecord()
         {
-            //if (!Guid.TryParse(Input, out var inputGuid))
-            //{
-            //    throw new ArgumentException("Input must be a valid Guid string");
-            //}
             var raw = GuidConverter.Core.GuidConverter.ToRaw(Input);
             WriteObject(raw);
         }

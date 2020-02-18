@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{34BF7A10-0EF1-42AD-A707-9FC2E811FE29}</ProjectGuid>
+    <ProjectGuid>{D1CDB51A-F7CB-457B-8AE5-BCBDADDA1595}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GuidConverter.Cmdlet</RootNamespace>
-    <AssemblyName>GuidConverter.Cmdlet</AssemblyName>
+    <RootNamespace>GuidConverter.Cmdlets</RootNamespace>
+    <AssemblyName>GuidConverter.Cmdlets</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -33,10 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\WindowsPowerShell\3.0\System.Management.Automation.dll</HintPath>
-    </Reference>
+    <Reference Include="System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,7 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GuidConverterCmdlets.cs" />
+    <Compile Include="ConvertGuidToRawCommand.cs" />
+    <Compile Include="ConvertRawToGuidCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -55,9 +53,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GuidConverter.psd1">
+    <Content Include="GuidConverter.Cmdlets.psd1">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy $(TargetDir)* "C:\Program Files\WindowsPowerShell\Modules\GuidConverter.Cmdlets\1.0.0 " /seiy</PostBuildEvent>
+  </PropertyGroup>
 </Project>

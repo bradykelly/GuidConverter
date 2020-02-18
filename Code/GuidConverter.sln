@@ -9,11 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Tests", "Guid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Core", "GuidConverter.Core\GuidConverter.Core.csproj", "{BD3C78B1-7423-457E-9D58-12CED843B387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Cmdlet", "GuidConverter.Cmdlet\GuidConverter.Cmdlet.csproj", "{34BF7A10-0EF1-42AD-A707-9FC2E811FE29}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Nuget", "GuidConverter.Nuget\GuidConverter.Nuget.csproj", "{DC35631A-837B-43C5-8997-2CAB4ED5866E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Commands", "GuidConverter.Commands\GuidConverter.Commands.csproj", "{BC78C91B-D646-4C4E-B3B9-5A3BACC865BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Cmdlets", "GuidConverter.Cmdlets\GuidConverter.Cmdlets.csproj", "{D1CDB51A-F7CB-457B-8AE5-BCBDADDA1595}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +33,6 @@ Global
 		{BD3C78B1-7423-457E-9D58-12CED843B387}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD3C78B1-7423-457E-9D58-12CED843B387}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD3C78B1-7423-457E-9D58-12CED843B387}.Release|Any CPU.Build.0 = Release|Any CPU
-		{34BF7A10-0EF1-42AD-A707-9FC2E811FE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34BF7A10-0EF1-42AD-A707-9FC2E811FE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34BF7A10-0EF1-42AD-A707-9FC2E811FE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34BF7A10-0EF1-42AD-A707-9FC2E811FE29}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DC35631A-837B-43C5-8997-2CAB4ED5866E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC35631A-837B-43C5-8997-2CAB4ED5866E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC35631A-837B-43C5-8997-2CAB4ED5866E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{BC78C91B-D646-4C4E-B3B9-5A3BACC865BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC78C91B-D646-4C4E-B3B9-5A3BACC865BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC78C91B-D646-4C4E-B3B9-5A3BACC865BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CDB51A-F7CB-457B-8AE5-BCBDADDA1595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CDB51A-F7CB-457B-8AE5-BCBDADDA1595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CDB51A-F7CB-457B-8AE5-BCBDADDA1595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CDB51A-F7CB-457B-8AE5-BCBDADDA1595}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Management.Automation;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace GuidConverter.Commands
+namespace GuidConverter.Cmdlets
 {
     /// <summary>
-    /// A PowerShell cmdlet that derives a Guid from the hex string representation of an Oracle RAW type column.
+    /// A PowerShell cmdlet that derives a Guid from the hex string representation of an Oracle RAW type column value.
     /// </summary>
     [Cmdlet(VerbsData.Convert, "RawToGuid")]
     public class ConvertRawToGuidCommand : System.Management.Automation.Cmdlet
