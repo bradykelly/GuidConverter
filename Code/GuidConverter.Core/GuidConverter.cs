@@ -12,12 +12,8 @@ namespace GuidConverter.Core
 
         public static Guid FromRaw(string source)
         {
-            var regEx = new Regex("[a-fA-F0-9]{2}");
+            var regEx = new Regex("^[a-fA-F0-9]{32}$");
             if (!regEx.IsMatch(source))
-            {
-                throw new ArgumentException("Input string must be hex digits only.");
-            }
-            if (source.Length != 32)
             {
                 throw new ArgumentException("Input must be a 32 char hex string. Input was this: " + source);
             }
@@ -26,12 +22,12 @@ namespace GuidConverter.Core
             return new Guid(bytes);
         }
 
-        private static string StringifyByteArray(byte[] array)
+        private static string StringifyByteArray(byte[] bytes)
         {
             string str = null;
-            if (array != null)
+            if (bytes != null)
             {
-                str = BitConverter.ToString(array).Replace("-", string.Empty);
+                str = BitConverter.ToString(bytes).Replace("-", string.Empty);
             }
             return str;
         }
@@ -39,32 +35,26 @@ namespace GuidConverter.Core
         private static byte[] ParseHex(string hex)
         {
             int offset = 0;
-            byte[] ret = new byte[hex.Length / 2];
+            byte[] bytes = new byte[hex.Length / 2];
 
-            for (int i = 0; i < ret.Length; i++)
+            for (int i = 0; i < bytes.Length; i++)
             {
-                ret[i] = (byte)((ParseDigit(hex[offset]) << 4)
+                bytes[i] = (byte)((ParseDigit(hex[offset]) << 4)
                                 | ParseDigit(hex[offset + 1]));
                 offset += 2;
             }
-            return ret;
+            return bytes;
         }
 
         private static int ParseDigit(char c)
         {
-            if (c >= '0' && c <= '9')
+            return c switch
             {
-                return c - '0';
-            }
-            if (c >= 'A' && c <= 'F')
-            {
-                return c - 'A' + 10;
-            }
-            if (c >= 'a' && c <= 'f')
-            {
-                return c - 'a' + 10;
-            }
-            throw new ArgumentException("Invalid hex digit: " + c);
+                >= '0' and <= '9' => c - '0',
+                >= 'A' and <= 'F' => c - 'A' + 10,
+                >= 'a' and <= 'f' => c - 'a' + 10,
+                _ => throw new ArgumentException("Invalid hex digit: " + c)
+            };
         }
     }
 }
