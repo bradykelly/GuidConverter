@@ -17,7 +17,6 @@ _Example_:
 > ***Guid***  
 > ***760fb5c1-a117-4fda-a29c-a7aa80a9655b***
 
-
 #### Installation Instructions
 
 1.	Find your main PowerShell modules folder. It is normally _C:\Program Files\WindowsPowerShell\Modules_, with _C:_ being dependent on how your drives are named, e.g. it could also be, say, _D:\Program Files\WindowsPowerShell\Modules_.

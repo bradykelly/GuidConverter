@@ -1,21 +1,22 @@
-﻿using System;
-using System.Management.Automation;
+﻿using System.Management.Automation;
+using System.Net.Http.Headers;
 
-namespace GuidConverter.Cmdlets
+namespace GuidConverter.Cmdlets;
+
+/// <summary>
+/// A PowerShell cmdlet that derives a string representation of a GUID that is suitable for use with an Oracle RAW(16) type column.
+/// </summary>
+[Cmdlet(VerbsData.Convert, "GuidToRaw")]
+public class ConvertGuidToRawCommand : Cmdlet
 {
-    /// <summary>
-    /// A PowerShell cmdlet that derives a string representation, for an Oracle RAW type column, of a Guid.
-    /// </summary>
-    [Cmdlet(VerbsData.Convert, "GuidToRaw")]
-    public class ConvertGuidToRawCommand : Cmdlet
-    {
-        [Parameter(Mandatory = true, Position = 1, ValueFromPipeline = true)]
-        public Guid Input { get; set; }
+    private const string HelpText = "Please enter a GUID to convert to RAW(16) format.";
+    
+    [Parameter(Mandatory = true, Position = 1, ValueFromPipeline = true)]
+    public Guid Input { get; set; }
 
-        protected override void ProcessRecord()
-        {
-            var raw = GuidConverter.Core.GuidConverter.ToRaw(Input);
-            WriteObject(raw);
-        }
+    protected override void ProcessRecord()
+    {
+        var raw = GuidConverter.Core.GuidConverter.ToRaw(Input);
+        WriteObject(raw);
     }
 }

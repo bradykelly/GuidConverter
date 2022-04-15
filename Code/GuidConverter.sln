@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Cmdlets", "GuidConverter.Cmdlets\GuidConverter.Cmdlets.csproj", "{F94A44EC-DC7E-49FC-9D40-C9BBE8217834}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuidConverter.Cmdlets", "GuidConverter.Cmdlets\GuidConverter.Cmdlets.csproj", "{F94A44EC-DC7E-49FC-9D40-C9BBE8217834}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Core", "GuidConverter.Core\GuidConverter.Core.csproj", "{799887C9-7DFC-4D4A-B9E3-7072C4353635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuidConverter.Core", "GuidConverter.Core\GuidConverter.Core.csproj", "{799887C9-7DFC-4D4A-B9E3-7072C4353635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidConverter.Tests", "GuidConverter.Tests\GuidConverter.Tests.csproj", "{F392DC9C-2523-4AD3-8A77-3B181BC7998D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuidConverter.Tests", "GuidConverter.Tests\GuidConverter.Tests.csproj", "{F392DC9C-2523-4AD3-8A77-3B181BC7998D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E6103FE-2ED8-4DCE-9E37-AF62D4645500}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
